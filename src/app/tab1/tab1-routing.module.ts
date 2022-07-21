@@ -6,7 +6,12 @@ const routes: Routes = [
   {
     path: '',
     component: Tab1Page,
+  },
+  {
+    path:'single-item',
+    loadChildren: () => import('./single-item/single-item.module').then(m => m.SingleItemPageModule)
   }
+
 ];
 
 @NgModule({

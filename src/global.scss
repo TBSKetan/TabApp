@@ -24,3 +24,280 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+// Text Styles Start
+.text-bold {
+  font-weight: bold;
+}
+
+// Text Styles End
+
+// Margin Styles Start
+.m-auto {
+  margin: auto;
+}
+
+.m-v-auto {
+  margin: auto 0;
+}
+
+.m-h-auto {
+  margin: 0 auto;
+}
+
+.m-small {
+  margin: 5px;
+}
+
+.m-l-small {
+  margin-left: 5px;
+}
+
+.m-r-small {
+  margin-right: 5px;
+}
+
+.m-t-small {
+  margin-top: 5px;
+}
+
+.m-b-small {
+  margin-bottom: 5px;
+}
+
+.m-v-small {
+  margin: 5px 0;
+}
+
+.m-h-small {
+  margin: 0 5px;
+}
+
+.m-medium {
+  margin: 8px;
+}
+
+.m-l-medium {
+  margin-left: 8px;
+}
+
+.m-r-medium {
+  margin-right: 8px;
+}
+
+.m-t-medium {
+  margin-top: 8px;
+}
+
+.m-b-medium {
+  margin-bottom: 8px;
+}
+
+.m-v-medium {
+  margin: 8px 0;
+}
+
+.m-h-medium {
+  margin: 0 8px;
+}
+
+.m-large {
+  margin: 10px;
+}
+
+.m-l-large {
+  margin-left: 10px;
+}
+
+.m-r-large {
+  margin-right: 10px;
+}
+
+.m-t-large {
+  margin-top: 10px;
+}
+
+.m-b-large {
+  margin-bottom: 10px;
+}
+
+.m-v-large {
+  margin: 10px 0;
+}
+
+.m-h-large {
+  margin: 0 10px;
+}
+
+// Margin Styles End
+
+// Margin Styles End10
+// Padding Styles Start
+.p-auto {
+  padding: auto;
+}
+
+.p-none {
+  padding: 0;
+}
+
+.p-small {
+  padding: 5px;
+}
+
+.p-l-small {
+  padding-left: 5px;
+}
+
+.p-r-small {
+  padding-right: 5px;
+}
+
+.p-t-small {
+  padding-top: 5px;
+}
+
+.p-b-small {
+  padding-bottom: 5px;
+}
+
+.p-v-small {
+  padding: 5px 0;
+}
+
+.p-h-small {
+  padding: 0 5px;
+}
+
+.p-medium {
+  padding: 8px;
+}
+
+.p-l-medium {
+  padding-left: 8px;
+}
+
+.p-r-medium {
+  padding-right: 8px;
+}
+
+.p-t-medium {
+  padding-top: 8px;
+}
+
+.p-b-medium {
+  padding-bottom: 8px;
+}
+
+.p-v-medium {
+  padding: 8px 0;
+}
+
+.p-h-medium {
+  padding: 0 8px;
+}
+
+.p-large {
+  padding: 10px;
+}
+
+.p-l-large {
+  padding-left: 10px;
+}
+
+.p-r-large {
+  padding-right: 10px;
+}
+
+.p-t-large {
+  padding-top: 10px;
+}
+
+.p-b-large {
+  padding-bottom: 10px;
+}
+
+.p-v-large {
+  padding: 10px 0;
+}
+
+.p-h-large {
+  padding: 0 10px;
+}
+
+// Padding Styles End
+
+.detailPop-custom-class {
+  --box-shadow: 0;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background: var(--popup-bgColor);
+
+  #detailPop {
+      height: 100%;
+      width: 100%;
+  }
+
+  #container {
+      position: relative;
+  }
+
+  .button-disabled {
+      opacity: 1;
+      pointer-events: none;
+  }
+
+  .popover-content {
+      --max-width: 100%;
+      width: 80%;
+      text-align: center;
+      // top: 20% !important;
+      // left: 9.5% !important;
+      // right: 9.5% !important;
+      --min-height: 300px;
+      --max-height: 550px;
+      overflow: visible;
+      background: var(--ion-color-white) !important;
+      // top: 50% !important;// left: 50% !important;
+      // transform: translate(-50%, -50%) !important;
+  }
+}
+
+// font size
+.font-small {
+  font-size: small !important;
+}
+
+.font-medium {
+  font-size: medium !important;
+}
+
+.font-smaller {
+  font-size: smaller !important;
+}
+
+.font-x-small {
+  font-size: x-small !important;
+}
+
+.font-smallest {
+  font-size: xx-small !important;
+}
+
+.font-large {
+  font-size: large !important;
+}
+
+.font-larger {
+  font-size: larger !important;
+}
+
+.font-x-large {
+  font-size: x-large !important;
+}
+
+.no-bg {
+  background-color: transparent !important;
+  --background-color: transparent;
+}

@@ -1,0 +1,17 @@
+.inputBorder {
+  border-color: #403E39;
+  border-width: thin;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.addBorderRadius {
+  border: 1px solid;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  .setIonSelectFilter {
+      height: 40px;
+      width: initial;
+  }
+}

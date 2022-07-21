@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-back-button defaultHref="/"></ion-back-button>
+
+  </ion-buttons>
+    <ion-title>Single Item</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-col>
+    <ion-item class="addBorderRadius" lines="none">
+      <ion-input class="m-l-small" type="text" placeholder="Enter alphabet only" (keypress)="alphabetOnly($event)"></ion-input>
+    </ion-item>
+  </ion-col>
+
+
+  <ion-col>
+    <ion-item class="addBorderRadius" lines="none">
+      <ion-input class="m-l-small" type="text" placeholder="Enter number only" (keypress)="numericOnly($event)"></ion-input>
+    </ion-item>
+  </ion-col>
+
+</ion-content>
