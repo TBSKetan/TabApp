@@ -14,5 +14,6 @@
   </ion-header>
 
   <app-explore-container name="Tab 1 page"></app-explore-container>
-  <a class="font-large m-t-medium" routerLink="single-item" routerDirection="forward">Goto next page</a>
+  <!-- <a class="font-large m-t-medium" routerLink="single-item" routerDirection="forward">Goto next page</a> -->
+  <a class="font-large m-t-medium" (click)="redirect()" routerDirection="forward">Goto next page</a>
 </ion-content>

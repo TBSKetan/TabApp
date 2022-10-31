@@ -25,7 +25,7 @@ const routes: Routes = [
         pathMatch: 'full'
       },
       {
-        path: 'single-item',
+        path: 'single-item/:id',
         loadChildren: () => import('../tab1/single-item/single-item.module').then( m => m.SingleItemPageModule)
       }
     ]

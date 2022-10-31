@@ -21,4 +21,11 @@
     </ion-item>
   </ion-col>
 
+  <ion-button (click)="navCtrl.back()">Go back</ion-button>
+  <ion-button (click)="navCtrl.navigateRoot('/tabs')" >Navigate to root</ion-button>
+  <ion-button (click)="navCtrl.pop()">Pop</ion-button>
+  <ion-button (click)="navCtrl.navigateBack('/tabs')" >Navigate Back</ion-button>
+
+
+
 </ion-content>
